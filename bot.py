@@ -11,7 +11,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 try:
     from config import BOT_TOKEN
 except ImportError:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "8321463095:AAG1gHVQ_nO3sllANJB67ufB0gBoiVDvgTc")
 
 # Configuration
 DOWNLOAD_DIR = Path(os.getenv("DOWNLOAD_DIR", "/sdcard/Download/TwitterSpaces"))
